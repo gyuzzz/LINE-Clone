@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awsome -->
+    <script
+      src="https://kit.fontawesome.com/b2b5daa02d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css 초기화 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!-- 메인css -->
+    <link rel="stylesheet" href="./login.css" />
+
+    <!-- 시간 js -->
+    <script defer src="./time.js"></script>
+    <title>Log in</title>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <div class="left-header">
+        <p class="Time">
+          <span id="nowTime"></span><i class="fas fa-location-arrow"></i>
+        </p>
+        <div class="go-app-store">
+          <i class="fas fa-caret-left"></i><span> App Store</span>
+        </div>
+      </div>
+
+      <div class="right-header">
+        <div>
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="side-header">
+      <i class="fas fa-chevron-left"></i>
+      <i class="far fa-question-circle"></i>
+    </section>
+    <!-- 메인 -->
+    <main>
+      <div class="inner">
+        <div class="container">
+          <h1 class="heading">LINE 로그인</h1>
+          <p class="descripton-first">
+            LINE을 시작하려면 전화번호로 로그인 해주세요.
+          </p>
+          <p class="descripton-second">
+            LINE 계정에 Apple ID 또는 Facebook을 연결한 경우 해당 방법으로도
+            로그인 할 수 있습니다.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- 로그인 이동 섹션 -->
+    <section class="go-login">
+      <div class="inner">
+        <button class="button green-button">전화번호로 로그인</button>
+        <button class="button black-button">
+          <i class="fab fa-apple"></i>Apple로 로그인
+        </button>
+        <button class="button blue-button">
+          <i class="fab fa-facebook"></i>페이스북으로 로그인
+        </button>
+      </div>
+    </section>
+  </body>
+</html>

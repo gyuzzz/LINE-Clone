@@ -1,0 +1,70 @@
+/* 버튼 css */
+@import './Components/header.css';
+@import './Components/Common.css';
+
+/* 메인 */
+main {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 100px;
+  /* background-color: salmon; */
+}
+
+main .container {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+main .main-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  background-image: url('./photo/Line.png');
+  background-color: white;
+  background-size: contain;
+}
+
+main .main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+main .main-description {
+  width: 500px;
+  height: 30px;
+  text-align: center;
+  line-height: 20px;
+  color: #999;
+}
+
+/* 폼섹션 */
+section.link-section {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+  /* background-color: blue; */
+}
+
+section .green-button {
+  background-color: #06c655;
+  color: white;
+  margin: 0 auto;
+}
+
+section .white-button {
+  background: white;
+  margin: 0 auto;
+}
